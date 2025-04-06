@@ -235,5 +235,5 @@ deaths_totals %>%
   kable_styling(full_width = FALSE)
 
 ```
-
+***The code aggregates COVID-19 data by summing the most recent confirmation and death counts for each country, then selects the top five countries in each category. These results are organized into tables using the kable package for clear presentation, making it easy to identify the hardest-hit countries. This method provides a straightforward snapshot of global impact, though it doesn't account for population size or other contextual factors that influence case and death counts.***
 
